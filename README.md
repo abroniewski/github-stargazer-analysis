@@ -2,7 +2,7 @@
 
 This Python project fetches, analyzes, and presents data from GitHub users who have starred a specific repository. It uses GitHub's API to obtain detailed user information and provides insights into the stargazers of any chosen GitHub repository.
 
-This project is authored by Adam Broniewski. For more information, please visit the author's [website](www.adambron.com) and [LinkedIn profile](https://www.linkedin.com/in/abroniewski/).
+This project is authored by Adam Broniewski. For more information, please visit the author's [website](https://adambron.com/) and [LinkedIn profile](https://www.linkedin.com/in/abroniewski/).
 
 ## Features
 1. **Fetching user data**: User details including username, type, name, company, location, blog, email, followers count, etc. are gathered.
@@ -25,21 +25,21 @@ Run the main script in the command line. It will prompt you whether you want to 
 2. Navigate into the project directory:
 
     ```
-    cd repo
+    cd github-stargazer-analysis
     ```
 
 3. Create a new Conda environment:
 
     ```
-    conda create -n env_name python=3.8
+    conda create -n github-stargazer
     ```
 
-    Replace `env_name` with your preferred name for the environment.
+    Replace `github-stargazer` with your preferred name for the environment.
 
 4. Activate the Conda environment:
 
     ```
-    conda activate env_name
+    conda activate github-stargazer
     ```
 
 5. Install the required packages using the `requirements.txt` file:
